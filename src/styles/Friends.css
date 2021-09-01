@@ -1,0 +1,68 @@
+.friends {
+    background-color: #242526;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 15px;
+}
+
+.friends .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.friends .header h2 {
+    margin:0;
+}
+
+.friends .header h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.total-friends {
+    margin: 0;
+    color: #999ba0;
+}
+
+.friends a {
+    text-decoration: none;    
+    color: #2e89ff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.friends a:hover {
+    background-color: #37393a;
+}
+
+.friends-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.friends .spacing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.friends .spacing p {
+    display: flex;
+    flex-direction: column;
+    font-size: 10pt;
+    font-weight: 500;
+    color: #c8cace;
+}
+
+.friends img {
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.friends img:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+    transition: 0.2s;
+}

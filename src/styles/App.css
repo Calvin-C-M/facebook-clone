@@ -1,0 +1,40 @@
+.content {
+  padding-top: 50px;
+}
+
+.sections {
+  margin-top: 580px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px
+}
+
+.sections .left-section {
+  width: 450px;
+}
+
+.sections .right-section, .sections .left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.new-message {
+  transition: 0.3s;
+  position: fixed;
+  transform: scale(1.6);
+  bottom: 0;
+  right: 0;
+  margin: 25px;
+  border-radius: 50%;
+  background-color: #4b4c4f;
+  padding: 7px;
+  color: #e4e6eb;
+}
+
+.new-message:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #5b5c5f;
+}

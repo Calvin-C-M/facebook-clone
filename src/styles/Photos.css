@@ -1,0 +1,49 @@
+.photos {
+    background-color: #242526;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.photos .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photos .header h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.photos a {
+    text-decoration: none;
+    border-radius: 5px;
+    color: #2e89ff;
+    padding: 10px;
+}
+
+.photos a:hover {
+    background-color: #37393a;
+}
+
+.photos-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.photos .spacing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photos img {
+    border-radius: 5px;
+}
+
+.photos img:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+    transition: 0.2s;
+}

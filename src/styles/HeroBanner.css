@@ -1,0 +1,246 @@
+.hero-banner {
+    background: rgb(150,164,162);
+    background: linear-gradient(171deg, rgba(150,164,162,1) 0%, rgba(78,84,84,1) 12%, rgba(52,55,55,1) 30%, rgba(36,37,38,1) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #e4e6e9;
+}
+
+.cover-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover-photo img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cover-photo img:hover {
+    cursor: pointer;
+}
+
+.cover-photo button {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    transform: translate(435px, 190px);
+    height: 35px;
+    padding: 10px;
+}
+
+.cover-photo button:hover {
+    transform: 0.1s;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+}
+
+.edit-cover-pict {
+    transform: scale(1.3);
+}
+
+.profile-picture {
+    position: absolute;
+    transform: translate(680px, -140px);
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    border: 5px solid #242526;
+    object-fit: cover;
+    transition: 0.1s;
+}
+
+.profile-picture img:hover {
+    filter: brightness(120%);
+    transition: 0.1s;
+}
+
+.profile-picture a {
+    text-decoration: none;
+    color: #e4e6ea;
+    position: absolute;
+    transform: translate(-40px, 125px);
+}
+
+.edit-profile-pict {
+    transform: scale(1.7);
+    background-color: #3a3b3c;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.edit-profile-pict:hover {
+    transition: 0.2s;
+    background-color: #5b5c5f;
+}
+
+.bio {
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 1px solid #38393a;
+    line-height: 15px;
+    padding-bottom: 15px;
+}
+
+.bio h1 {
+    font-weight: 400;
+}
+
+.bio a {
+    color: #2b7fff;
+    text-decoration: none;
+}
+
+.bio a:hover {
+    text-decoration: underline;
+}
+
+.profile-menus {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.profile-links {
+    display: flex;
+    align-items: center;
+}
+
+.profile-links a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #e4e6eb;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+.profile-links a:hover {
+    background-color: #37393a;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.profile-links a:nth-child(1) {
+    color: #2b7fff;
+    border-bottom: 3px solid #2b7fff;
+}
+
+.profile-links .more-profile {
+    position: absolute;
+    transform: translate(450px, 180px);
+    background-color: #242526;
+    border: 1px solid #2c2d2d;
+    border-radius: 10px;
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    z-index: 1;
+}
+
+.profile-links .more-profile::-webkit-scrollbar {
+    width: 10px;
+}
+
+.profile-links .more-profile::-webkit-scrollbar-thumb {
+    background-color: #9fa2a6;
+    border-radius: 10px;
+    
+}
+
+.profile-links .more-profile p {
+    margin: 0;
+    padding: 5px;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.profile-links .more-profile p:hover {
+    background-color: #37393a;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.profile-options {
+    display: flex;
+    gap: 8px;
+}
+
+.profile-options button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #3a3b3c;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    height: 35px;
+    border-radius: 8px;
+    transition: 0.1s;
+    padding: 10px;
+}
+
+.profile-options button:hover {
+    background-color: #5b5c5f;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.profile-options button:nth-child(1) {
+    background-color: #2d88ff;
+    transition: 0.1s;
+}
+
+.profile-options button:nth-child(1):hover {
+    background-color: #3f92fd;
+    transition: 0.1s;
+}
+
+.profile-options .more {
+    background-color: #242526;
+    position: absolute;
+    transform: translate(100px, 50px);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #292a2b;
+    border-radius: 10px;
+    width: 330px;
+    padding: 5px;
+    z-index: 1;
+}
+
+.profile-options .more a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 5px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 12pt;
+    transition: 0.2s;
+}
+
+.profile-options .more a:hover {
+    background-color: #5b5c5f;
+    cursor: pointer;
+    transition: 0.2s;
+}

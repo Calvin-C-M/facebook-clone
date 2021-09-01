@@ -1,0 +1,65 @@
+.make-new-post {
+    background-color: #242526;
+    border-radius: 10px;
+    width: 520px;
+    padding: 0px 20px;
+}
+
+.make-post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.make-post .make {
+    background-color: #3a3b3c;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 500px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    color: #abacaf;
+    transition: 0.1s;
+}
+
+.make-post .make:hover {
+    cursor: pointer;
+    background-color: #5b5c5f;
+    transition: 0.1s;
+}
+
+.make-post img {
+    border-radius: 50%;
+}
+
+.make-post-options {
+    border-top: 1px solid #38393a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #abacaf;
+    padding: 5px 0px;
+}
+
+.make-post-options p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: 0.1s;
+    margin: 0;
+}
+
+.make-post-options .grow-icon {
+    transform: scale(1.5);
+}
+
+.make-post-options p:hover {
+    background-color: #37393a;
+    transition: 0.1s;
+    cursor: pointer;
+}
